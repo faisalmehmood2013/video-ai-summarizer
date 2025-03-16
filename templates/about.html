@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+{% block title %}About - Video AI Summarizer{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h2>About Flask Video AI Summarizer</h2>
+    <p>Welcome to our Flask-based Video AI Summarizer! This platform allows users to upload a video file or provide a YouTube URL and interact with an AI-powered assistant to extract key insights from the video.</p>
+    
+    <h2>How It Works</h2>
+    <p>Our AI system processes video content and provides:</p>
+    <ul>
+        <li>Summaries of the video using AI-based natural language processing (NLP).</li>
+        <li>Interactive chat to ask questions about the video and get AI-generated responses.</li>
+        <li>Relevant timestamps for easy navigation.</li>
+        <li>Stored chat history so users can revisit past discussions even after refreshing the page.</li>
+    </ul>
+    
+    <h2>Technology Stack</h2>
+    <p>We use the following technologies to power this AI-driven summarizer:</p>
+    <ul>
+        <li><strong>Flask:</strong> Backend framework managing web application and API requests.</li>
+        <li><strong>Google Gemini AI:</strong> NLP model for summarization and question-answering.</li>
+        <li><strong>Phi AI Agent:</strong> Structured chatbot integration for interactive conversations.</li>
+        <li><strong>YouTubeTranscriptAPI:</strong> Fetches video transcripts when available.</li>
+        <li><strong>yt-dlp:</strong> Downloads subtitles for videos without automatic transcripts.</li>
+    </ul>
+    
+    <h2>Use Cases</h2>
+    <p>This platform is beneficial in various fields, including:</p>
+    <ul>
+        <li><strong>Education:</strong> Students can quickly summarize lecture videos.</li>
+        <li><strong>Corporate Training:</strong> Employees can review training materials efficiently.</li>
+        <li><strong>News & Research:</strong> Journalists and researchers can extract insights from interviews and documentaries.</li>
+        <li><strong>Content Creators:</strong> Analyze trends and key topics from videos.</li>
+    </ul>
+    
+    <h2>Future Enhancements</h2>
+    <p>We plan to introduce new features such as:</p>
+    <ul>
+        <li>Multi-language support for video analysis.</li>
+        <li>Advanced sentiment analysis.</li>
+        <li>Custom AI fine-tuning for specific industries.</li>
+        <li>Voice-based interaction for hands-free AI engagement.</li>
+    </ul>
+    
+    <p>Thank you for using our AI Video Summarizer! We aim to make video consumption smarter and more interactive.</p>
+</div>
+{% endblock %}

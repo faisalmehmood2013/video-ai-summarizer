@@ -1,0 +1,9 @@
+phidata
+flask
+python-dotenv
+google-generativeai
+duckduckgo-search
+markdown
+youtube_transcript_api
+pytube
+yt-dlp
