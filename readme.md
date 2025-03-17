@@ -52,9 +52,6 @@ http://127.0.0.1:5000/
 - **Custom AI fine-tuning** for industry-specific insights.
 - **Voice-based interaction** for hands-free AI engagement.
 
-## License
-This project is licensed under the MIT License.
-
 ## Contact
 For support or inquiries, contact: [E-mail](shahfaisal1234@gmil.com)
 
