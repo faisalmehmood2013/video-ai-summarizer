@@ -7,3 +7,4 @@ markdown
 youtube_transcript_api
 pytube
 yt-dlp
+gunicorn
